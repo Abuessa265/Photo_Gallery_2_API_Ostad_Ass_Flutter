@@ -1,5 +1,5 @@
 # photo_gallary_2_ostad_assignment
-# The Flutter Simple api gallery Applicatio.
+## The Flutter Simple api gallery Applicatio.
 
 
 n .
