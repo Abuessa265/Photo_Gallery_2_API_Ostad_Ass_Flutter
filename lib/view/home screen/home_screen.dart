@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-//import 'package:get_data_from_api/view/photo%20details%20screen/photo_details_screen.dart';
 import 'package:http/http.dart' as http;
 
 import '../../model/photos_list_model.dart';
