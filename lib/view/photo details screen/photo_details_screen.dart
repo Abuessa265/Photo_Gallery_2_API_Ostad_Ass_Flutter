@@ -25,17 +25,19 @@ class PhotoDetailsScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 30),
-            buildImage(imgUrl),
-            const SizedBox(height: 20),
-            buildText('Title', title),
-            const SizedBox(height: 15),
-            Center(child: buildText('ID', id)),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 30),
+              buildImage(imgUrl),
+              const SizedBox(height: 20),
+              buildText('Title', title),
+              const SizedBox(height: 15),
+              Center(child: buildText('ID', id)),
+            ],
+          ),
         ),
       ),
     );
